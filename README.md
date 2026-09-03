@@ -1,15 +1,24 @@
-# Mum's The Word
+# Mum's the Word
 
-## Build Dependencies
-* [SKSE64](https://skse.silverlock.org/)
-* [CommonLibSSE](https://github.com/Ryan-rsm-McKenzie/CommonLibSSE)
-* [Json2Settings](https://github.com/Ryan-rsm-McKenzie/Json2Settings)
+## Environment variables
 
-## End User Dependencies
-* [SKSE64](https://skse.silverlock.org/)
+[How to set up envioriment variables](https://gist.github.com/Thiago099/b45ec7832fb754325b29a61006bcd10c)
 
-## Settings
-Setting | Description
---- | ---
-`useThreshold` | Enables usage of the cost threshold.
-`costThreshold` | If the value of an item exceeds this threshold, it will still count as stolen.
+COMMONLIB_SSE_FOLDER
+
+Clone this Repository, to somewhere safe and adds its path to this environment variable on Windows:
+https://github.com/alandtse/CommonLibVR
+
+## License
+
+[GPL-3.0-or-later](COPYING) WITH [Modding Exception AND GPL-3.0 Linking Exception (with Corresponding Source)](EXCEPTIONS.md).
+Specifically, the Modded Code includes:
+
+- Skyrim (and its variants)
+
+The Modding Libraries include:
+
+- [SKSE](https://skse.silverlock.org/)
+- Windows
+
+Originally based on code under [MIT](licenses/LICENSE-MIT).
