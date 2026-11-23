@@ -16,6 +16,11 @@ namespace {
                 return;
             }
 
+            // Pick-up passes the ref as its own source; ground items have nobody to steal from.
+            if (a_fromRefr->GetBaseObject() == a_item) {
+                return;
+            }
+
             if (*Settings::useThreshold) {
                 auto value = a_item->GetGoldValue();
                 if (value > *Settings::costThreshold) {
